@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radhey Patel | CS &amp; Cybersecurity Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logoContainer">
+      <span class="logoBadge">&lt;RP/&gt;</span>
+      <span class="logoText">Radhey Patel</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="heroWrapper">
+        <div class="heroText">
+          <div class="heroStatus">
+            <span class="statusDot"></span> CS MAJOR @ UNC CHARLOTTE
+          </div>
+          <h1>Hey, I'm Radhey.</h1>
+          <p class="heroSubtext">I'm a CS student at UNC Charlotte focusing on Cybersecurity. I build web tools and Python projects, and I'm learning how computer systems and network security work.</p>
+          <div class="heroActions">
+            <a href="#contact" class="btn btnPrimary">Get in touch</a>
+            <a href="#experience" class="btn btnSecondary">My experience</a>
+          </div>
+        </div>
+
+        <div class="heroVisual">
+          <div class="terminalCard">
+            <div class="terminalHeader">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminalTitle">system_status.sh</span>
+            </div>
+            <div class="terminalBody">
+              <p class="terminalLine"><span class="prompt">$</span> status --check</p>
+              <p class="terminalLine response">&gt; Status: Online</p>
+              <p class="terminalLine response">&gt; Major: CS @ UNCC</p>
+              <p class="terminalLine response">&gt; Track: Cybersecurity</p>
+              <p class="terminalLine response">&gt; Skills: Python / JS / HTML</p>
+              <p class="terminalLine promptLine"><span class="prompt">$</span> ready_to_build<span class="cursor">_</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="sectionHeader">
+        <span class="sectionTag">01 ABOUT</span>
+        <h2>About Me</h2>
+      </div>
+      <p>I'm a Computer Science major at UNC Charlotte focusing on Cybersecurity. I really like doing hands-on coding projects, messing around with web layouts, and figuring out how network security and basic scripts actually work.</p>
+      <p>My goal is to become a Cybersecurity Engineer to help spot security threats and keep systems safe. When I'm not doing schoolwork or glued to my computer screen, I'm usually outside hiking, playing sports, or hanging out.</p>
+      
+      <div class="skillsWrapper">
+        <h3>Skills &amp; Topics I'm Learning</h3>
+        <ul class="skillsGrid">
+          <li>Python &amp; Java</li>
+          <li>JavaScript</li>
+          <li>HTML5 &amp; CSS Layouts</li>
+          <li>Cybersecurity Basics</li>
+          <li>Git &amp; GitHub</li>
+          <li>Form Input Validation</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="sectionHeader">
+        <span class="sectionTag">02 EXPERIENCE</span>
+        <h2>Where I've Worked</h2>
+      </div>
+      
+      <div class="timeline">
+        <article class="timelineItem">
+          <div class="timelineHeader">
+            <h3>IT Intern</h3>
+            <span class="timelineDate">June 2025 &ndash; August 2025</span>
+          </div>
+          <p class="timelineSub">Glenmark Pharmaceuticals &middot; Monroe, NC</p>
+          <ul>
+            <li>Built a JavaScript web app with 4 vendor-specific PDF parsers and a general parser that enter invoice data into the company's master invoice sheet</li>
+            <li>Replaced manual invoice entry: staff pick the vendor and invoice type, and the app does the rest</li>
+            <li>Set up 30+ computers for new hires and replacements, installing required applications and security certificates</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="sectionHeader">
+        <span class="sectionTag">03 CONTACT</span>
+        <h2>Let's Connect</h2>
+      </div>
+      <p>Feel free to send me a message through the form below or email me directly if you'd like to collaborate or chat about tech!</p>
+      
+      <div class="contactInfoBar">
+        <div class="infoItem">
+          <span class="infoLabel">Email</span>
+          <span class="infoValue">patelradhey62@gmail.com</span>
+        </div>
+        <div class="infoItem">
+          <span class="infoLabel">Location</span>
+          <span class="infoValue">Charlotte, NC</span>
+        </div>
+      </div>
+
+      <form class="contactForm" action="#" method="post">
+        <div class="formRow">
+          <div class="formGroup">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="formGroup">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+        </div>
+
+        <div class="formGroup">
+          <label for="subject">Subject *</label>
+          <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+        </div>
+
+        <div class="formGroup">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btnPrimary btnSubmit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footerContent">
+      <p>&copy; 2026 Radhey Patel.</p>
+      <div class="socialLinks">
+        <a href="https://github.com/patelradhey62" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/patelradhey62" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

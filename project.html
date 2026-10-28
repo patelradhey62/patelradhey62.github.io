@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Radhey Patel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logoContainer">
+      <span class="logoBadge">&lt;RP/&gt;</span>
+      <span class="logoText">Radhey Patel</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html" class="active">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="projectsSection">
+      <div class="sectionHeader">
+        <span class="sectionTag">PORTFOLIO</span>
+        <h1>Featured Projects</h1>
+      </div>
+      <p class="sectionIntro">Here are projects I've built for my classes and during my internship. They've helped me practice Python, JavaScript, and writing HTML/CSS by hand.</p>
+
+      <div class="projectsGrid">
+        <article class="projectCard">
+          <div class="projectImageWrapper">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Laptop screen showing data and charts">
+          </div>
+          <div class="projectContent">
+            <h2>Invoice Parser Web App</h2>
+            <p>Built at my internship: a web app where staff choose the vendor and invoice type, and a parser reads the PDF and enters the data into the company's invoice sheet. It has 4 vendor-specific parsers plus a general one, and replaced manual data entry.</p>
+            <div class="techTags">
+              <span>JavaScript</span>
+              <span>PDF Parsing</span>
+              <span>Automation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard">
+          <div class="projectImageWrapper">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="Code displayed on a monitor">
+          </div>
+          <div class="projectContent">
+            <h2>Sandwich Maker</h2>
+            <p>A command-line ordering program for a class, written in Python with object-oriented design. It checks ingredient stock, validates coin payments, and has a report command for remaining inventory.</p>
+            <p><a href="https://github.com/patelradhey62/Sandwich-Maker" target="_blank" rel="noopener">View on GitHub</a></p>
+            <div class="techTags">
+              <span>Python</span>
+              <span>OOP</span>
+              <span>Command Line</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard">
+          <div class="projectImageWrapper">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="Laptop showing web development code">
+          </div>
+          <div class="projectContent">
+            <h2>Personal Portfolio Website</h2>
+            <p>Built for my web development class with HTML and CSS. It has two pages, a responsive flexbox layout with media queries for phone, tablet, and desktop, and a contact form that checks required fields and email format.</p>
+            <div class="techTags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Flexbox</span>
+              <span>Form Validation</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footerContent">
+      <p>&copy; 2026 Radhey Patel.</p>
+      <div class="socialLinks">
+        <a href="https://github.com/patelradhey62" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/patelradhey62" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
